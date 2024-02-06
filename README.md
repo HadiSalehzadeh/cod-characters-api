@@ -4,6 +4,7 @@ This is a simple API that returns information about some of the characters from 
 # How to use the API
 The API has three endpoints:
 
+  - Navigate to the project folder and run npm install to install the dependencies. This will also create a node_modules folder that contains the packages required by the project. This folder is not pushed to GitHub, as it is listed in the .gitignore file.
   - / : This endpoint serves an HTML file that displays a list of the available characters and their images.
   - /cod : This endpoint returns a JSON object with all the characters and their details, such as name, role, voice actor, and image URL.
   - /cod/:name : This endpoint returns a JSON object with the details of a specific character, based on the name parameter. If the name is not found, it returns an error message.
